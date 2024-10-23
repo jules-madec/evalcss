@@ -2,6 +2,7 @@
     display: flex;
 
 }
+/* je met le flex pour pouvoir bouger ensuite je met tout les icone en collone grace au flex direction puis je centre et grace a un space evenly je l ai fais prendre toute la place*/
 .app-nav{
     display: flex;
     flex-direction: column;
@@ -9,13 +10,14 @@
     justify-content: space-evenly;
     
 }
+/* je cible le haut l'album je met tout au debut grace a flex start*/
 .album {
     display: flex;
     justify-content: flex-start;
 }
 
     
-
+/* avec control je met les met au centre de la boite puis je met un sapce evenly pour qu'il est tout le meme ecart*/
 .controls{
     display: flex;
     justify-content: space-evenly;
@@ -23,25 +25,26 @@
     
 
 }
-.currents{
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    
-}
-
-.current-details{
-    display: flex;
-    justify-content: flex-start;
-}
+/*track item ses pour le nom des musique  et j'utilise space-between pour les mettre a l'extérieur*/
 .track-item{
     display: flex;
     justify-content: space-between;
 }
 
-
+/*  j ecarte les */
 div.app-bottom{
     display: flex;
     justify-content: space-between;
     
+}
+/*   */
+.currents-cover{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+/*   */
+.current{
+    display: flex;
+    width: 80%  ;
 }
